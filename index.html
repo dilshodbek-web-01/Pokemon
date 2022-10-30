@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BS CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- ==== NAVBAR START ==== -->
+            <nav class="nav justify-content-center">
+                <div class="logo-picture">
+                    <img src="./images/pokemon_logo.png" alt="pokemon_logo" class="logo-picture">
+                    <span class="heart">
+                        <i class="fa-regular fa-heart fs-2"></i>
+                    </span>
+                </div>
+            </nav>
+            <!-- ==== NAVBAR END ==== -->
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- ==== FORM START ==== -->
+                        <form action="#" class="form d-flex w-100 align-items-center justify-content-evenly">
+
+                            <select name="select" id="select" class="select1 fs-3 text-center">
+                                <!-- <option value="0" select disabled>SELECT THEM</option> -->
+                                <option value="1">Gross</option>
+                                <option value="2">Aa-Zz</option>
+                            </select>
+
+                            <label for="#">
+                                <input type="search" placeholder="Search" class="search form-control">
+                                <span class="search-icon">
+                                    <i class="fa-solid fa-magnifying-glass fs-5"></i>
+                                </span>
+                            </label>
+
+                            <select name="select" id="select" class="select1 fs-3 text-center">
+                                <!-- <option value="0" select disabled>SELECT THEM</option> -->
+                                <option value="1">Aa-Zz</option>
+                                <option value="2">Gross</option>
+                            </select>
+
+                            <button class="btn bg-white">
+                                <p class="btn-text">Button</p>
+                            </button>
+
+                        </form>
+                        <!-- ==== FORM END ==== -->
+                    </div>
+
+                    <div class="col-12 wrapper">
+                        <div class="card">
+                            <div class="card-picture ms-2 py-3 px-5">
+                                <img src="./images/pokemon.jpg" alt="pokemon" class="pokemon">
+                            </div>
+                            <hr>
+                            <div class="card__content px-3">
+
+                                <div class="title d-flex align-items-center justify-content-between">
+                                    <h3 class="card__content-title fs-5">
+                                        Pokemons
+                                    </h3>
+                                    <span class="card-heart">
+                                        <i class="fa-regular fa-heart fs-5 ms-5"></i>
+                                    </span>
+                                </div>
+
+                                <div class="card-text"></div>
+                                <p class="card-text-info fs-5">
+                                    Grass, Poison
+                                </p>
+
+                                <div class="load d-flex align-items-center justify-content-between w-75 mb-3">
+                                    <h4 class="load-kg fs-5">
+                                        6.9 kg
+                                    </h4>
+                                    <h4 class="load-age fs-5">
+                                        6.9 age
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="./utils.js"></script>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&family=Roboto:wght@500;700&display=swap");
+
+body {
+  background: rgb(252, 182, 53);
+}
+/* ==== NAVBAR START ==== */
+.nav {
+  margin: 50px auto 70px;
+}
+
+.logo-picture {
+  background-color: transparent;
+}
+
+.heart {
+  position: relative;
+  left: 245px;
+  bottom: 93px;
+}
+/* ==== NAVBAR END ==== */
+
+/* ==== FORM START ==== */
+.form {
+  margin-bottom: 100px;
+}
+
+.select1 {
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  width: 240px;
+  height: 60px;
+}
+
+.btn {
+  width: 200px;
+  height: 60px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+.btn-text {
+  /* font-family: "Roboto"; */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+::placeholder {
+  color: black;
+  /* font-family: "Roboto"; */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.search {
+  width: 270px;
+  height: 60px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 685px;
+  top: 365px;
+}
+/* ==== FORM END ==== */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(270px, 1fr));
+  gap: 15px;
+}
+
+.pokemon {
+  width: 157px;
+  height: 157px;
+}
